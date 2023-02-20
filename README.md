@@ -3,6 +3,7 @@
 <a href='https://opensource.org/licenses/MIT'>
     <img src='https://img.shields.io/badge/License-MIT-blue.svg' alt='License'/>
   </a>
+  
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/meta2vec)
 ![PyPI](https://img.shields.io/pypi/v/meta2vec)
 
