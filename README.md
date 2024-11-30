@@ -45,10 +45,10 @@ The above code loads the pre-trained HMDB embeddings from the `embedding` direct
 from meta2vec import hmdb_id_cosine_distance, hmdb_id_euclidean_distance
 
 # Calculate the cosine distance between two HMDB IDs
-cosine_distance = hmdb_id_cosine_distance(hmdb_embeddings, "HMDB0000001", "HMDB0000002")
+cosine_distance = hmdb_id_cosine_distance(hmdb_embeddings, "HMDB0000001", "HMDB0000017")
 
 # Calculate the Euclidean distance between two HMDB IDs
-euclidean_distance = hmdb_id_euclidean_distance(hmdb_embeddings, "HMDB0000001", "HMDB0000002")
+euclidean_distance = hmdb_id_euclidean_distance(hmdb_embeddings, "HMDB0000001", "HMDB0000017")
 ```
 
 ### Find Most Similar Metabolites
