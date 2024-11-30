@@ -1,9 +1,9 @@
 import pickle
 import os
 import urllib
-from distance import cal_list_similarity, hmdb_id_cosine_distance, embedding_cosine_distance, hmdb_id_euclidean_distance, embedding_euclidean_distance, most_similar
-from utils import get_available_hmdbs, get_hmdb_embedding
-from visualize import visualize_umap
+from .distance import cal_list_similarity, hmdb_id_cosine_distance, embedding_cosine_distance, hmdb_id_euclidean_distance, embedding_euclidean_distance, most_similar
+from .utils import get_available_hmdbs, get_hmdb_embedding
+from .visualize import visualize_umap
 
 def from_pretrained(model_type: str = "TransE", embedding_dir: str = "embedding") -> dict:
     """
